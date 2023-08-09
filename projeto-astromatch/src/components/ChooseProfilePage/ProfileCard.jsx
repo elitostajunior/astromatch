@@ -9,19 +9,21 @@ const ProfileCardContainer = styled.div`
 const ProfilePicture = styled.img`
   width: 100%;
   display: block;
+  max-height: 350px;
 `
 
 const ProfileInfo = styled.div`
   padding: 0 16px;
 `
 
-function ProfileCard() {
+function ProfileCard(props) {
+  const profile = props.profile  
   return (
     <ProfileCardContainer>
-      <ProfilePicture src={'https://picsum.photos/300/300'} />
+      <ProfilePicture src={profile.photo} />
       <ProfileInfo>
-        <p>Nome da pessoa, 20</p>
-        <p>Descrição da pessoa</p>
+        <p>{profile.name}, {profile.age}</p>
+        <p>{profile.bio}</p>
       </ProfileInfo>
     </ProfileCardContainer>
   )

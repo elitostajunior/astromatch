@@ -18,8 +18,8 @@ function Main() {
     return (
         <MainContainer>
             <AppBar />
-            <ChooseProfilePage />
-            {/* <MatchListPage /> */}
+            {/* <ChooseProfilePage /> */}
+            <MatchListPage />
         </MainContainer>
     )
 }
