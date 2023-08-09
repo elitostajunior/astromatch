@@ -1,14 +1,19 @@
 import React from 'react'
 import MatchListItem from './MatchListItem'
+import styled from 'styled-components'
+
+const ListContainer = styled.div`
+  padding: 8px;
+`
 
 function MatchListPage() {
   return (
-    <div>
+    <ListContainer>
       <MatchListItem />
       <MatchListItem />
       <MatchListItem />
       <MatchListItem />
-    </div>
+    </ListContainer>
   )
 }
 
