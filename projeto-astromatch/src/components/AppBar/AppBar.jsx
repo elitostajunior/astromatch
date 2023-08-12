@@ -9,12 +9,12 @@ const AppBarContainer = styled.div`
   padding: 0 8px;
 `
 
-function AppBar() {
+function AppBar(props) {
   return (
     <AppBarContainer>
-      <button>Escolher</button>
+      <button onClick={props.goToChooseProfilePage}>Escolher</button>
       <p>Astromatch</p>
-      <button>Lista</button>
+      <button onClick={props.goToMatchListPage}>Lista</button>
     </AppBarContainer>
   )
 }
