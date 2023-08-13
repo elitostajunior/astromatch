@@ -15,7 +15,7 @@ const MainContainer = styled.div`
 `
 
 function Main() {
-    const [selectedPage, setSelectedPage] = useState('match-list')
+    const [selectedPage, setSelectedPage] = useState('choose-profile')
 
     const renderSelectedPage = () => {
         switch(selectedPage) {

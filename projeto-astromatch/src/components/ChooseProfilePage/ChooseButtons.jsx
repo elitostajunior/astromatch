@@ -6,11 +6,11 @@ const ButtonsContainer = styled.div`
   justify-content: space-around;
 `
 
-function ChooseButtons() {
+function ChooseButtons(props) {
   return (
     <ButtonsContainer>
-      <button>Não</button>
-      <button>Sim</button>
+      <button onClick={props.onClickNo}>Não</button>
+      <button onClick={props.onClickYes}>Sim</button>
     </ButtonsContainer>
   )
 }
