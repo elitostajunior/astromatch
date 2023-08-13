@@ -4,7 +4,7 @@ import ChooseButtons from './ChooseButtons'
 import axios from 'axios'
 
 function ChooseProfilePage() {
-  const [profileToChoose, setProfileToChoose] = useState({})
+  const [profileToChoose, setProfileToChoose] = useState(undefined)
 
   const getProfileToChoose = () => {
     axios.get('https://us-central1-missao-newton.cloudfunctions.net/astroMatch/eli-junior-joy/person')
@@ -18,6 +18,7 @@ function ChooseProfilePage() {
       choice: choice,
       id: profileToChoose.id
     }
+    setProfileToChoose(undefined)
 
     axios.post('https://us-central1-missao-newton.cloudfunctions.net/astroMatch/eli-junior-joy/choose-person', body)
     .then(response => {
@@ -40,11 +41,15 @@ function ChooseProfilePage() {
 
   return (
     <div>
-      <ProfileCard profile={profileToChoose} />
-      <ChooseButtons 
-        onClickNo={onClickNo}
-        onClickYes={onClickYes}
-      />
+      { profileToChoose ?
+        (<>
+          <ProfileCard profile={profileToChoose} />
+          <ChooseButtons 
+            onClickNo={onClickNo}
+            onClickYes={onClickYes}
+          />
+        </>) : <p>Carregando...</p>
+      }
     </div>
   )
 }
