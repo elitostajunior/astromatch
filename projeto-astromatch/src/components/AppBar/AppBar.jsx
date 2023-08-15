@@ -31,11 +31,11 @@ function AppBar(props) {
   return (
     <AppBarContainer>
       <IconButton onClick={props.goToChooseProfilePage}>
-        <RecentActorsRoundedIcon sx={{ fontSize: 40, color: 'navy' }} />
+        <RecentActorsRoundedIcon sx={{ fontSize: 40, color: 'indigo' }} />
       </IconButton>
       <Image src={astromatch} />
       <IconButton onClick={props.goToMatchListPage}>
-        <ViewListRoundedIcon sx={{ fontSize: 40, color: 'navy' }} />
+        <ViewListRoundedIcon sx={{ fontSize: 40, color: 'indigo' }} />
       </IconButton>
     </AppBarContainer>
   )

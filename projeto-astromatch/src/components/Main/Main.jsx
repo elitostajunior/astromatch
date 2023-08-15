@@ -7,11 +7,13 @@ import styled from 'styled-components'
 const MainContainer = styled.div`
     border: 1px solid black;
     border-radius: 3px;
-    width: 450px;
-    height: 750px;
+    width: 430px;
+    height: 790px;
     margin: auto;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
+    box-shadow: 5px 5px 15px 0px #3B3B3B;
 `
 
 function Main() {
@@ -43,6 +45,7 @@ function Main() {
                 goToMatchListPage={goToMatchListPage}
             />
             {renderSelectedPage()}
+            
         </MainContainer>
     )
 }
