@@ -8,8 +8,10 @@ const ProfileCardContainer = styled.div`
 
 const ProfilePicture = styled.img`
   width: 100%;
+  height: 460px;
   display: block;
-  max-height: 350px;
+  object-fit: cover;
+  object-position: 50% 20%;
 `
 
 const ProfileInfo = styled.div`

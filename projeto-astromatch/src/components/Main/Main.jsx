@@ -7,9 +7,9 @@ import styled from 'styled-components'
 const MainContainer = styled.div`
     border: 1px solid black;
     border-radius: 3px;
-    width: 400px;
-    height: 600px;
-    margin: 30px;
+    width: 450px;
+    height: 750px;
+    margin: auto;
     display: flex;
     flex-direction: column;
 `
