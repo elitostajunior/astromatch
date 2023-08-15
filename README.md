@@ -8,6 +8,8 @@
 
 ### Deploy do projeto
 
+https://comfortable-bell.surge.sh/
+
 ### Tecnologias Utilizadas
 
 **Frontend:** O aplicativo Astromatch foi desenvolvido utilizando as seguintes tecnologias:
