@@ -31,4 +31,9 @@ O Astromatch oferece os seguintes recursos de interação do usuário e lógica 
 - **Conversas Fictícias:** Após uma correspondência ser simulada, os usuários podem entrar em "conversas" fictícias com os perfis correspondentes.
 - **Gerenciamento de Estado:** O estado da aplicação é gerenciado de forma eficiente com o Redux, permitindo que a interação do usuário e a lógica de simulação sejam coordenadas de maneira coesa.
 
-### Imagem do projeto
+### Imagens do projeto
+
+![astromatch-profile](https://github.com/elitostajunior/astromatch/assets/89365251/cb80cce7-8e9b-4eb1-a23f-c81cb07a599e)
+![astromatch-matches](https://github.com/elitostajunior/astromatch/assets/89365251/68d4d9e3-1d5f-4e24-96a1-3461c49334b0)
+
+
