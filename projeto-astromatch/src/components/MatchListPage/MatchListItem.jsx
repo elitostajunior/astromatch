@@ -16,6 +16,8 @@ const Avatar = styled.img`
   margin-right: 8px;
   height: 35px;
   width: 35px;
+  object-fit: cover;
+  object-position: 50% 20%;
 `
 
 function MatchListItem(props) {

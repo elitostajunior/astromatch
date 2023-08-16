@@ -11,7 +11,7 @@ const ButtonsContainer = styled.div`
 const ChooseButtonYes = styled.button`
   border: 2px solid red;
   background-color: white;
-  border-radius: 50px;
+  border-radius: 50%;
   padding: 8px;
 
   :hover {
@@ -22,7 +22,7 @@ const ChooseButtonYes = styled.button`
 const ChooseButtonNo = styled.button`
   border: 2px solid green;
   background-color: white;
-  border-radius: 50px;
+  border-radius: 50%;
   padding: 8px;
 
   :hover {
