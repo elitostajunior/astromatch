@@ -8,7 +8,7 @@
 
 ### Deploy do projeto
 
-https://majestic-pika-fb83dc.netlify.app/
+https://astromatch-elitostajunior.netlify.app/
 
 ### Tecnologias Utilizadas
 
