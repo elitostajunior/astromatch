@@ -8,7 +8,7 @@
 
 ### Deploy do projeto
 
-https://unusual-umbrella.surge.sh/
+https://majestic-pika-fb83dc.netlify.app/
 
 ### Tecnologias Utilizadas
 
